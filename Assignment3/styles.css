@@ -1,0 +1,72 @@
+.color1 {
+  color: ##FF00F0;
+  background-color: #FF0000;
+}
+
+.color2 {
+    color: #0000f0;
+    background-color: #ffff55;
+  }
+
+#Title {
+  color: #00ff00;
+  background-color: #0f0f0f;
+}
+
+.Subheader {
+  color: #ff000f;
+  background-color: #00fff0;
+}
+
+.Smallerheader {
+  color: #ff0f00;
+  background-color: #fffff0;
+}
+
+h2 {
+  color: #f90ff9;
+  background-color: #fff90F;
+}
+
+h3 {
+  color: #00F777;
+  background-color: #FFBF57;
+}
+
+h1 {
+  color: #000FFF;
+  background-color: #FF9999;
+}
+
+/*
+p {
+  color: #0000f0;
+  background-color: #ffff55;
+}
+*/
+
+a {
+  color: #FF0000;
+}
+
+a:visited {
+  color: #00FF00;
+}
+
+a:hover {
+  color: #FFFF00;
+}
+
+.listcolor {
+  color: #BBBB00;
+  background-color: #AA110D;
+}
+
+footer {
+  color: #BC7742;
+  background-color: #0D7742;
+}
+
+.spanstyle {
+  color: #00FF00;
+}
