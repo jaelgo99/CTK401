@@ -1,0 +1,45 @@
+body {
+  font: normal 14px Arial, Helvetica, sans-serif;
+  background-image: url(fungradient.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+h1{
+  font-style: italic;
+  font-weight: normal;
+  color: #ff9900;
+}
+
+h2{
+  font-style: italic;
+  font-weight: normal;
+  color: #ff9900;
+}
+
+h3{
+  font-style: italic;
+  font-weight: normal;
+  color: #ff9900;
+}
+
+h4{
+  font-style: italic;
+  font-weight: normal;
+  color: #ff9900;
+}
+
+.imgborder{
+  border: solid 3px #000000;
+  padding: 20px;
+  background-color: #FFFFFF;
+}
+
+.centertext{
+  text-align: center;
+}
+
+.justifytext{
+  text-align: justify;
+}
