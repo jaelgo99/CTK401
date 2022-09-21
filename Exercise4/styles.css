@@ -1,0 +1,55 @@
+.Upperblock{
+  background-color: #00FFFF;
+}
+
+#turnwhite{
+  color: #FFFFFF;
+}
+
+a {
+  color: green;
+  text-decoration: none;
+}
+
+a:hover{
+  color: red;
+  text-decoration: underline;
+}
+
+#turnblue{
+  color: blue;
+}
+
+#turnorange{
+  color: orange;
+}
+
+#turnyellow{
+  background-color: yellow;
+}
+
+#turnred{
+  color: red;
+}
+
+#turngreenandyellow{
+  color: yellow;
+  background: green;
+}
+
+#greenbg{
+  background-color: green;
+}
+
+#yellowbg{
+  background-color: yellow;
+}
+
+#turnred2{
+  color: red;
+}
+
+#turnblue2{
+  color: blue;
+  font-weight: bold;
+}
