@@ -1,0 +1,103 @@
+body{
+  background-image: url("a62.png");
+}
+#wrapper{
+  width: 1080px;
+  margin: 1em auto;
+  padding: 0;
+  width: 960px;
+  background-color: white;
+  border: 2px solid black;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+header{
+  grid-column: span 12;
+}
+.NoBold{
+  font-family: Helvetica, sans-serif;
+  font-weight: normal;
+  margin: 10px;
+  padding: 20px;
+  color: white;
+  background-color: black;
+}
+
+nav{
+    grid-column: span 3;
+}
+
+nav ul {
+  margin: 10px;
+  padding: 0;
+  list-style: none;
+}
+
+nav ul li{
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul a{
+  display: block;
+  padding: 20px;
+  margin-bottom: 10px;
+  color: white;
+  background-color: red;
+  text-decoration: none;
+  font-family: helvetica;
+}
+nav ul a:hover{
+  background-color: #8B0000;
+}
+#h2nobold{
+  font-family: Helvetica, sans-serif;
+  margin-top: 5px;
+  margin-right: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
+}
+
+main{
+  grid-column: span 9;
+}
+
+.georgiaOnMyMind{
+  font-family: Georgia, serif;
+  font-weight: bold;
+  text-align: justify;
+  margin: 10px
+}
+
+#FloatImg{
+  padding: 10px;
+  margin-right: 10px;
+  border: 2px solid black;
+  float: left;
+}
+
+.lowerdiv{
+  margin-top: 40px;
+}
+
+.lowerdiv a{
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.lowerdiv a:hover{
+  color: blue;
+  text-decoration: underline;
+}
+
+footer{
+  grid-column: span 12;
+  font-family: Verdana, sans-serif;
+  font-style: italic;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
