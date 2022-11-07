@@ -1,0 +1,84 @@
+body {
+  background-color: #ffffff;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+/*  border: 1px solid black; */
+  padding: 24px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+nav{
+  grid-column: span 12;
+}
+ul{
+  list-style-type: none;
+    margin-left: 840px;
+}
+
+ul li{
+  display: inline;
+
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: #3F0200;
+    margin-left: 50px;
+    font-family: Roboto, sans-serif;
+    font-weight: lighter;
+}
+
+
+header{
+  padding-right: 300px;
+  height: 600px;
+  background-image: url(gradientbg.jpg);
+  background-size: 1200px;
+  grid-column: span 12;
+}
+
+aside{
+  grid-column: span 12;
+}
+
+aside h2{
+  font-family: Roboto, sans-serif;
+  font-size: 36px;
+  color: #3F0200;
+  margin-top: 75px;
+  padding-bottom: 25px;
+  border-bottom: 0.5px solid #76302D
+}
+.Pic1{
+  width: 500px;
+  border: 1px solid black;
+  margin-right: 20px;
+}
+
+/* style for dummy columns, delete and replace with your own CSS */
+.Title{
+  font-family: Roboto, sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  padding: 50px;
+  color: #ffffff;
+}
+
+#button1{
+  display: block;
+  grid-column: span 12;
+  width: 100px;
+  padding: 15px;
+  margin-top: 100px;
+  font-size: 16px;
+  text-decoration: none;
+  text-align: center;
+  color: #ffffff;
+  background-color: #9D4440
+}
