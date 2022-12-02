@@ -1,20 +1,43 @@
 body {
-  background-color: #fcecda;
+/*  background-color: #fcecda; */
+margin: 0;
+font-family: 'Poppins';
 }
 
+/* body h1{
+  font-size: 5.61rem;
+}
+
+body h2{
+  font-size: 4.209rem;
+}
+
+body h3{
+
+} */
 #wrapper {
-  margin: 24px auto;
-  width: 1200px;
-  border: 1px solid #3F0200;
+  /* margin: 24px auto;
+  width: 1380px;
+
+  border-radius: 6px;
   padding: 24px;
+  border: 1px solid #3F0200; */
+  /*width: 100%;
+  margin: 24px; */
   background-color: #ffffff;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 24px;
-  border-radius: 6px;
 }
+
 nav{
   grid-column: span 12;
+  overflow: hidden;
+  background-color: #ffffff;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  border-bottom: 2px solid #282525;
 }
 ul{
   list-style-type: none;
@@ -29,42 +52,165 @@ ul li{
 
 ul li a{
     text-decoration: none;
-    color: #3F0200;
+    color: #282525;
     margin-left: 50px;
-    font-family: Roboto, sans-serif;
-    font-weight: lighter;
+    font-weight:normal;
 }
 
 
-header{
-  padding-right: 300px;
+.MainHeader{
+/*  padding-right: 300px; */
+/*  height: 600px; */
+  /* width: 1380px; */
+  padding: 0;
+  grid-column: span 12;
+  border-bottom: 2px solid #282525;
+  background-color: #fadebd;
+}
+
+
+#BGGradient{
+  background-color: #fadebd;
   height: 600px;
-  background-image: url(gradientbg.jpg);
-  background-size: 1200px;
-  grid-column: span 12;
-  margin-bottom: 0;
-    border: 1px solid #76302D;
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
-
+  width: 65vw;
+  max-width: 50rem;
+  margin-right: auto;
+  margin-left: auto;
+  /* background-image: url(gradientbg.jpg);
+  background-size: 100%; */
+/*  border: 1px solid black;
+/*  border-top-left-radius: 6px;
+  border-top-right-radius: 6px; */
 }
 
-aside{
-  grid-column: span 12;
-  margin-top: 0;
-  border: 1px solid #3F0200;
-
+.MainHeaderBody{
+margin: 0;
+margin-bottom: 65px;
+margin-top: 5px;
+padding: 0;
+text-align: center;
+/* border: 1px solid black; */
 }
 
-aside h2{
+.square {
+  position: relative;
+  margin: 0;
+   left: 300px;
+   top: 90px;
+  height: 200px;
+  width: 200px;
+  filter: brightness(0) saturate(100%) invert(50%) sepia(35%) saturate(579%) hue-rotate(209deg) brightness(100%) contrast(91%);
+}
+
+.star{
+  z-index: -1;
+  -webkit-animation: rotation 30s infinite;
+  animation: rotation 30s infinite;
+}
+  @-webkit-keyframes rotation {
+    0% {transform:rotate(0deg);}
+    100% {transform:rotate(360deg);}
+  }
+  @keyframes rotation {
+    0% {transform:rotate(0deg);}
+    100% {transform:rotate(360deg);}
+  }
+
+
+.Title{
   font-family: 'Sora';
-  font-size: 36px;
+  font-size: 5.625rem;
+  font-weight: bolder;
+  padding-top: 0px;
+  margin-bottom: 15px;
+  color: #282525;
+  text-align: center;
+/*  background-image: url(starburst.svg);
+  background-repeat: no-repeat, repeat;
+  background-position:right; */
+}
+
+#BlockyTitle{
+  font-weight: 900;
+}
+
+
+main {
+  grid-column: span 4;
+  padding-left: 50px;
+}
+
+section {
+  grid-column: span 8;
+  padding-left: 120px;
+}
+
+#text-header {
+  font-family: 'Sora';
+  font-size: 48px;
+  font-weight: bolder;
+/*  padding: 0; */
   color: #3F0200;
-  padding: 25px;
-  padding-left: 55px;
+}
+
+
+
+
+#MyPic{
+  height: 600px;
+  border: 3px solid black;
+  box-shadow: 10px 10px 0px 0px #000000;
+  border-radius: 6px;
+  margin: 20px;
+  margin-right: 40px;
+}
+
+.Body1{
+  font-family: 'Poppins';
+  font-size: 1.5rem;
+  color: #282525;
+  padding: 0;
+  margin:0;
+}
+
+.Body2{
+  font-family: 'Poppins';
+  font-size: 1.25rem;
+  color: #282525;
+  padding: 0;
+  margin:0;
+}
+
+.MainAside{
+  grid-column: span 12;
+  padding: 0;
+}
+
+#container-aside{
+  border-bottom: 1px solid #86e0f2;
+  background-color: #86e0f2;
+  width: 100%;
+}
+
+.box1{
+  width: 65vw;
+  max-width: 50rem;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#container-aside h2{
+  font-family: 'Sora';
+  font-size: 4.5rem;
+  color: #282525;
+  padding-top: 50px;
+/*  padding-left: 55px;
 /*  border-bottom: 1px solid #76302D; */
   margin-top: 0;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 /* aside a{
@@ -94,27 +240,28 @@ aside h2{
 }
 
 /* style for dummy columns, delete and replace with your own CSS */
-.Title{
-  font-family: 'Sora';
-  font-size: 48px;
-  font-weight: bolder;
-  padding: 50px;
-  color: #ffffff;
-}
 
 .carousel {
   color: #170724;
-
+background-color: #86e0f2;
   --carousel-button-bg: #fff;
-  --carousel-button-shadow: 0 2px 2px -0px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0
-          0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
-
+  --carousel-button-border: 2px solid black;
+  --carousel-button-shadow: 0px 0px 0px 0px #282525, 0 1px 0px 2px #282525;  0 1px 3px 0 rgb(0 0 0 / 12%); */
   --carousel-button-svg-width: 20px;
   --carousel-button-svg-height: 20px;
   --carousel-button-svg-stroke-width: 2.5;
-  --carousel-button-border: 1px solid 282525;
+  --carousel-button-border-radius: 4px;
 }
 
+.carousel__button{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+/*.carousel__button:hover{
+  --carousel-button-bg: #aaaaaa;
+  --carousel-button-shadow: 4px 4px 0px 0px #282525, 0 1px 0px 2px #282525;
+} */
 
 .carousel__slide {
   display: flex;
@@ -125,25 +272,51 @@ aside h2{
   height: 640px;
   margin-right: 6px;
 
-  background-color: #ffffff;
+  background-color: #86e0f2;
   border-radius: 6px;
 }
 
 .Icon{
 
 }
-
-#button1{
+.LinkContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button1{
   display: block;
-  grid-column: span 12;
-  width: 100px;
+  /* grid-column: span 12; */
+  width: 140px;
   padding: 15px;
-  margin-left: 50px;
+  margin-left: 0px;
+  font-size: 1.25rem;
+  text-decoration: none;
+  text-align: center;
+  color: #282525;
+  background-color: #f29c86;
+  border: 1px solid #282525;
+  box-shadow: 6px 6px 0px 0px #282525;
+  font-family: 'Sora';
+  border-radius: 4px;
+  transition: width 1s, box-shadow 1s;
+}
+
+.button1:hover{
+  box-shadow: 8px 8px 0px 0px #282525; /* x, y, blur, color */
+  width: 160px;
+}
+
+.button2{
+  display: block;
+  width: 150px;
+  padding: 20px;
   font-size: 16px;
   text-decoration: none;
   text-align: center;
   color: #ffffff;
-  background-color: #9D4440;
-    border: 1px solid #3F0200;
-    font-family: 'Sora';
+  background-color: #c0fc8f;
+  border: 1px solid #282525;
+  font-family: 'Sora';
+  border-radius: 4px;
 }
