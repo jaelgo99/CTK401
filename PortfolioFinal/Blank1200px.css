@@ -361,12 +361,14 @@ height:100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 10px;
+  margin-left: 0
 }
 
 .AboutBody{
  grid-column-start: 2;
  grid-column-end: 2;
  padding-left: 40px;
+ padding-right: 60px;
 }
 
 .AboutBodyContent{
@@ -395,6 +397,7 @@ box-shadow: 6px 10px 0px 0px #282525;
 .AboutPic{
   grid-column-start: 1;
   grid-column-end: 1;
+  padding-right: 20px;
 }
 
 .img-container{
